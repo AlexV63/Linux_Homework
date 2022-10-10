@@ -10,3 +10,16 @@
    9 ls -a / | tail -4 >> /opt/task/start.txt
   10 cat /opt/task/start.txt
   11 history > /tmp/history.txt
+  
+  Second level 
+   0 touch chmodFile
+   1 date >>/home/chmodFile
+   2 cat /home/chmodFile
+   3 ls -l /home
+   4 date >> /home/chmFile
+   6 ls -l /home
+   7 chmod u+x chmodFile
+   8 ls -l
+   9 chmod o-r chmodFile
+  10 ls -l
+   
