@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for run in {1..10}
+do
+touch  /opt/37_38_MA/Alexey/2/$run$(date "+%m%d%y").txt
+done
+
+
+# in crontab -e
+#*/15 * * * * /opt/37_38_MA/Alexey/taskAlexey.sh
